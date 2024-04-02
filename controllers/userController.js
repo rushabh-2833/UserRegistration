@@ -158,7 +158,7 @@ class Controller{
         req.session.destroy((err)=>{
             if (err) throw er
 
-            res.redirect('/home')
+            res.redirect('/')
         })
     }
 
