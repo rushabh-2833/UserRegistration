@@ -10,7 +10,7 @@ router.get('/login',Controller.login_get)
 
 router.get('/dashboard',isAuthenticUser,Controller.dashboard_get)
 
-router.get('/home',Controller.home_get)
+router.get('/',Controller.home_get)
 
 router.post('/logout',Controller.logout_post)
 
